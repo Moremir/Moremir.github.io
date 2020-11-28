@@ -1,0 +1,26 @@
+.container-user {
+    margin: 25px auto;
+    width: 350px;
+    height: 120px;
+}
+
+.container-img {
+    background-image: url(../images/jutsu\ light.png);
+}
+
+.container-icons {
+    margin: 0 auto;
+    width: 900px;
+    height: 75px;
+    background-color: #1c341c;
+    border-radius: 10px;
+}
+
+.container-light {
+  background-color: #c6e262;
+}
+
+
+
+
+

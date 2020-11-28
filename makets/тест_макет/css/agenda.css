@@ -1,0 +1,43 @@
+.agenda {
+    width: 563px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.h3-agenda {
+    font-size: 24px;
+    margin: 31px 0 31px 0;
+}
+.program {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    margin-left: 30px;
+}
+li {
+    font-size: 24px;
+    line-height: 26,75px;
+    margin-bottom: 10px;
+}
+
+
+.getting{
+    margin-top: 52px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 268px;
+    height: 60px;
+    background-color: #7205FD;
+}
+
+.h4-js {
+    color: white;
+}

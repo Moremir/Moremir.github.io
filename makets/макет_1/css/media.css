@@ -1,0 +1,14 @@
+@media screen and (max-width: 1286px) {
+    .content2 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .sub-content {
+        width: 100%;
+    }
+    .sub-content2 {
+        width: 100%;
+    }
+}
+

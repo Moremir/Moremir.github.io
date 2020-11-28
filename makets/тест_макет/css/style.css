@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Comfortaa', cursive;
+}
+.neolabs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 68px;
+    background-color: #617BDA;
+}
+.content {
+    max-width: 1130px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+h2 {
+    font-size: 24px;
+}
+h1 {
+    line-height: 40px;
+    font-size: 36px;
+    color: black;
+    text-align: center;
+
+    margin: 57px 0 53px 0;
+}
+
+.javascript {
+    margin-bottom: 105px;
+    display: flex;
+}
+.js {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 563px;
+}
+
+.javascript-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 472px;
+}
+
+.h3-js {
+    font-weight: 700;
+    font-size: 24px;
+    margin: 30px 0 16px 0;
+}
+
+.p-js {
+    font-size: 18px;
+}
+
+.trial-lesson {
+    margin-top: 54px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 296px;
+    height: 40px;
+    background-color: #17E76A;
+}
+
+.h4-js {
+    color: white;
+}
+
+@media screen and (max-width: 1285px) {
+    .javascript {
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -1,0 +1,78 @@
+.container-anime {
+    background-color: #1f1f1f;
+    width: 880px;
+    margin: 0 auto;
+    border: 3px solid rgb(2, 41, 2);
+    display: flex;
+    color: white;
+}
+
+.container-anime-light {
+    background-color: rgb(238, 237, 237);
+    color: black;
+}
+
+.watch-anime {
+    display: flex;
+    width: 70%;
+}
+
+.sasuke-naruto {
+    padding: 30px 10px;
+
+}
+
+.naruto-text {
+
+    
+    font-size: 15px;
+    line-height: 21px;
+}
+
+.p-naruto {
+    margin: 20px 5px;
+}
+
+
+
+
+
+
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    
+    border: 2px solid #c6e262;
+    border-radius: 15px;
+    color: white;
+    width: 30%;
+    background-color: #363a37;
+    margin: 10px;
+}
+.navigation-light {
+    background-color: #eef5cd;
+    color: black;
+}
+
+h3 {
+    text-align: center;
+    margin: 5px auto;
+    font-weight: 400;
+}
+
+.border-bottom {
+    margin: 5px auto;
+   background-color: #fff;
+    height: 2px;
+    width: 180px;
+}
+
+.anime-list {
+    margin: 0 auto;
+
+    font-weight: 400;
+    list-style: none;
+    font-size: 15px;
+    line-height: 25px;
+}

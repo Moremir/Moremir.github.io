@@ -1,0 +1,8 @@
+@media screen and (max-width: 760px) {
+    .content,
+    .review-block,
+    .buildings {
+        flex-direction: column;
+        align-items: center;
+    }
+}

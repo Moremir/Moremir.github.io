@@ -1,0 +1,40 @@
+.our-brands {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #0F0F0F;
+    width: 100%;
+    height: 362px;
+}
+
+.brands {
+    display: flex;
+    
+     align-items: center;
+    flex-direction: column;
+
+    width: 1110px;
+    height: 222px;
+   
+}
+
+.h2-brand {
+    color: white;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.line-brand {
+    margin: 40px auto;
+}
+
+.img-brands {
+    display: flex;
+    justify-content: space-between;
+
+    height: 94px;
+    width: 100%;
+    
+}
