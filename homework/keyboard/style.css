@@ -1,9 +1,12 @@
 body {
-    background-color: rgb(199, 199, 199);
+    background-image: url(./Без\ названия.jpg);
+    
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .electro-piano {
-    margin-top: 100px;
+    margin-top: 200px;
 
     display: flex;
     
@@ -12,18 +15,69 @@ body {
 }
 
 .electro-piano div {
+    font-size: 17px;
+
+    border-radius: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 4px;
-    width: 100px;
-    height: 100px;
+    margin-right: 10px;
+    width: 60px;
+    height: 110px;
     border: 3px solid salmon;
+
+    
+}
+
+.key {
+    transition: ease 1s;
+}
+
+
+
+
+.playing {
+    transform: scale(0.8);
+}
+
+
+
+
+
+
+.do {
+    background-color: white;
+    color: black;
+}
+.re {
+    background-color: black;
+    color: white;
+}
+.mi {
+    background-color: white;
+    color: black;
+}
+.fa {
+    background-color: black;
+    color: white;
+}
+
+.so {
+    background-color: white;
+    color: black;
+}
+.lya {
+    background-color: black;
+    color: white;
+}
+.si {
+    background-color: white;
+    color: black;
 }
 
 .text {
     margin-top: 100px;
-
+    
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 200;
