@@ -14,4 +14,3 @@ document.addEventListener('keydown', (e) => {
   keyBoard.classList.add('playing')
   audio.play()
 })
-

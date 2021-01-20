@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    max-width: 100%;
+    height: 116px;
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 70px;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-family: 'Homemade Apple', cursive;
+    width: 150px;
+    margin-top: 39px;
+    color: #231F20;
+}
+
+.nav_links {
+    display: flex;
+    align-items: center;
+}
+
+.nav_list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    max-width: 600px;
+}
+
+.nav_list li {
+    font-size: 18px;
+    display: inline-block;
+    padding: 0 15px;
+    text-transform: uppercase;
+}
+
+.nav_list a {
+    color: black;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+
+.gift_finder{
+    width: 150px;
+    height: 43.5px;
+    margin-top: 36.73px;
+    
+    border: 1px solid #F7941E;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    border-radius: 5px;
+}
+
+.gift {
+    color: #F7941E;
+}
+
+@media screen and (max-width: 610px) {
+    .header {
+
+        padding: 10px;
+    }
+    .nav_list li {
+        font-size: 15px;
+        padding: 5px;
+    }
+    .logo {
+        width: 50px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .gift_finder {
+        width: 110px;
+    }
+}

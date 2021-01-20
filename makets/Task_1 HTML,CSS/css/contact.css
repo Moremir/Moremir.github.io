@@ -1,0 +1,61 @@
+.contact_us {
+    background-color: #F7941E;
+
+}
+
+.get_started {
+    display: flex;
+    justify-content: space-between;
+    max-width: 970px;
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.h2_contact {
+    padding-top: 81px;
+    font-size: 32px;
+}
+
+.p_contact {
+    font-size: 32px;
+    font-weight: 300;
+    padding-bottom: 69px;
+}
+
+.buttons {
+    margin-top: 96px;
+}
+
+.find_gift_btn {
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    background-color: #231F20;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-right: 16px;
+}
+
+.how_btn {
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 660px) {
+    .contact_us {
+        padding: 50px;
+    }
+}
+
+@media screen and (max-width: 411px) {
+    .contact_us {
+        padding: 10px;
+    }
+}
