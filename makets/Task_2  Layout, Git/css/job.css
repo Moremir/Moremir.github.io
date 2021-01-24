@@ -1,0 +1,94 @@
+.job {
+    max-height: 100%;
+    height: 887px;
+}
+.job__blue {
+    background-color: #504DC2;
+    height: 55%;
+}
+.job__white {
+    height: 397px;
+    height: 45%;
+}
+
+
+.job__absolute {
+    padding: 100px 0 85px 0;
+} 
+
+.job__services {
+    display: flex;
+    justify-content: space-between;
+}
+
+.job__ours {
+    font-weight: 700;
+    font-size: 36px;
+    color: white;
+    max-width: 540px;
+}
+
+.job__btn {
+    height: 45px;
+    width: 200px;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    background-color: #4985FF;
+    font-size: 16px;
+}
+
+
+.job__invest {
+    margin: 70px 0 85px 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.job__img {
+    max-width: 100%;
+}
+
+
+.job__span {
+    color: #4985FF;
+}
+.job__title {
+    font-weight: 600;
+    font-size: 18px;
+    margin: 30px 0 30px 0;
+}
+
+.job__sub-title {
+    max-width: 350px;
+    font-size: 16px;
+    color: grey;
+    margin-bottom: 30px;
+}
+
+.link {
+    font-size: 16px;
+    font-weight: 500;
+    color: #4985FF;
+}
+
+@media screen and (max-width:960px) {
+    .job__invest {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .job__services {
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .job__ours {
+        margin-bottom: 20px;
+    }
+}
+

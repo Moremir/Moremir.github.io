@@ -1,0 +1,41 @@
+.header__content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    flex-direction: column;
+    color: white;
+}
+
+.header__title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.5px;
+}
+
+.header_sub-title {
+    margin-top: 20px;
+    font-weight: 800;
+    text-align: center;
+    max-width: 829px;
+    width: 100%;
+    font-size: 48px;
+}
+
+.header__btn {
+    width: 200px;
+    height: 45px;
+    background-color: #4985FF;
+    border: none;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 560px) {
+    .header_sub-title {
+        font-size: 36px;
+    }
+}
+
+
+

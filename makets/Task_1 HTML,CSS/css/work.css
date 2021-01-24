@@ -2,6 +2,7 @@
     width: 50%;
     background-size: cover;
     background-position: center center;
+    max-width: 100%;
 }
 
 .work_container {

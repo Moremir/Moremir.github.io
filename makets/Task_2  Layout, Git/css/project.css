@@ -1,0 +1,48 @@
+.project {
+    background-color: #F6F6F8;
+    margin-top: 85px;
+    padding: 100px 0 0 0;
+}
+
+.project__title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+}  
+
+.project__sub-title {
+    text-align: center;
+    max-width: 730px;
+    color: grey;
+    font-size: 16px;
+    margin: 50px auto 70px auto;
+}
+
+.project__images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
+}
+
+.project__button {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width:960px) {
+    .project {
+        margin-top: 660px;
+    }
+    .project__images {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .project {
+        margin-top: 1250px;
+}
+}

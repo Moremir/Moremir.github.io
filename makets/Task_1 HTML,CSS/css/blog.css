@@ -19,10 +19,13 @@
 
 .wish_container {
     display: flex;
-
     max-width: 1170px;
     margin: 0 auto;
     width: 100%;
+}
+
+.couple_blog_img {
+    max-width: 100%;
 }
 
 .john_container {
@@ -58,5 +61,8 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+    }
+    .couple_blog_img {
+        margin-bottom: 20px;
     }
 }

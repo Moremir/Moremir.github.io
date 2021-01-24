@@ -50,8 +50,18 @@
 
 @media screen and (max-width: 660px) {
     .contact_us {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         padding: 50px;
     }
+    .h2_contact {
+        font-size: 25px;
+    }
+    .p_contact {
+        font-size: 25px;
+    }
+    
 }
 
 @media screen and (max-width: 411px) {
