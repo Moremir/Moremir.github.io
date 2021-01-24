@@ -15,12 +15,16 @@ h1 {
 }
 .portfolio {
     margin-top: 100px;
+    max-width: 1366px;
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-row-gap: 30px;
+    justify-self: center;
+}
 
-    flex-wrap: wrap;
-    display: flex;
-    max-width: 1500px;
-    justify-content: space-around;
-
+.portfolio div {
+    justify-self: center;
 }
 .projects {
     display: flex;
@@ -36,4 +40,13 @@ h1 {
 a {
     font-size: 20px;
     text-decoration: none;
+}
+
+@media screen and (max-width:960px) {
+    .portfolio {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
 }
