@@ -62,7 +62,7 @@
     color: grey;
 }
 
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 515px) {
     .subscribe__email {
         justify-content: center;
         align-items: center;

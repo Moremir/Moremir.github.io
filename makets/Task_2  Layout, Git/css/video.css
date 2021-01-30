@@ -20,7 +20,8 @@
     background-image: url(../images/watch.png);
     background-position: center center;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
+    max-width: 100%;
 }
 
 .video__title {

@@ -29,12 +29,21 @@
     border: none;
     border-radius: 30px;
     margin-top: 50px;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 560px) {
     .header_sub-title {
         font-size: 36px;
     }
+}
+
+@media screen and (max-width: 660px) {
+    .header__content {
+        margin-top: 130px;
+        justify-content: flex-start;
+    }
+    
 }
 
 
