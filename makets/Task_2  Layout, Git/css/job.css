@@ -92,3 +92,11 @@
     }
 }
 
+
+@media screen and (max-width: 560px) {
+    .job__ours {
+        font-size: 30px;
+    }
+}
+
+
