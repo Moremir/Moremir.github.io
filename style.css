@@ -1,52 +1,88 @@
-* {
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: white;
+    margin: 0 auto;
+    max-width: 1440px;
+    width: 100%;
+    background-image: url(./images/golden\ gate.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    font-family: 'Comfortaa', cursive;
 }
 
-body {
-    background-color: grey;
+.profile {
+    position: relative;
 }
 
-h1 {
-    margin: 20px;
-    text-align: center;
-}
-.portfolio {
-    margin-top: 100px;
-    max-width: 1366px;
-    
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-row-gap: 30px;
-    justify-self: center;
-}
-
-.portfolio div {
-    justify-self: center;
-}
-.projects {
+.profile__info {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 350px;
+    height: 60px;
+    background-color: #263032;
+    border-bottom-right-radius: 50px;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
+    font-size: 18px;
+}
 
-    border: 2px solid white;
-    background-color: black;
+.content {
+    width: 70%;
+    max-width: 100%;
+
+    background-color: rgba(200, 200, 200, 0.8);
+    margin: 0 auto;
+    margin-top: 150px;
+
+    display: flex;
+    
+    align-items: center;
+    flex-direction: column;
+}
+
+.content__myimage img {
     width: 200px;
-    height: 50px;
+    height: 275px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center center;
+    border: 3px solid #263032;
 }
 
-a {
-    font-size: 20px;
-    text-decoration: none;
+.content__myimage {
+    transform: translateY(-130px);
 }
 
-@media screen and (max-width:960px) {
-    .portfolio {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        align-items: center;
-    }
+.content__myname {
+    text-align: center;
+    margin-top: -80px;
+    font-size: 30px;
+    color: #005864;
+    font-family: 'Yantramanav', sans-serif;
+    font-weight: 600;
 }
+
+.content__description {
+    margin-top: 20px;
+    text-align: center;
+    width: 70%;
+    font-size: 18px;
+}
+
+.content__projects {
+    color: #005864;
+    font-family: 'Yantramanav', sans-serif;
+    font-size: 26px;
+    margin-top: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
