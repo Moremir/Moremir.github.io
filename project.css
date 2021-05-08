@@ -31,6 +31,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .content__media-title {
@@ -62,7 +63,7 @@
         z-index: 4;
     }
     .content {
-        transform:translateY(120px);
+        margin-top: 250px;
     }
     .content__portfolio {
         grid-template-columns: 1fr 1fr;
@@ -70,6 +71,9 @@
     .content__myimage img {
         width: 150px;
         height: 225px;
+    }
+    body {
+        background-image: url(./images/42c62d49801003a813c790e6b914be97.jpg);
     }
     
 }
